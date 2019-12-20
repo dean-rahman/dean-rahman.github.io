@@ -8,7 +8,7 @@ layout: default
 
 ## Find me on
 
-[LinkedIn](https://www.linkedin.com/in/deanrahman), [GitHub](https://dean-rahman.github.io)
+[LinkedIn](https://www.linkedin.com/in/deanrahman), [GitHub](https://github.com/dean-rahman/)
 
 ## Contact
 
@@ -22,8 +22,9 @@ My email address is of the form first_name.last_name@helsinki.fi.
 
 ## Projects
 [Number of births per Finnish maternity clinic nurse, average for maakunta (static map)](https://autogis-2018.github.io/exercise-5-dean-rahman/Exercise_5_Problem_1_static_map_w_basemap.png)
+
 [Interactive map, created in Geopandas](https://autogis-2018.github.io/exercise-5-dean-rahman/Exercise_5_Problem_2_Interactive_Map.html)
 
 ## Misc. 
 
-[Gotta Love CheeseMy favorite activities outside work are learning languages with my wife Elina and swimming with my son Kaleb and daughter Aurora.](https://www.espoo.fi/en-US/Culture_and_sport/Sports/Sports_and_Recreation_Facilities/Swimming_halls/Leppavaara) 
+[My favorite activities outside work are learning languages with my wife Elina and swimming with my son Kaleb and daughter Aurora.](https://www.espoo.fi/en-US/Culture_and_sport/Sports/Sports_and_Recreation_Facilities/Swimming_halls/Leppavaara) 

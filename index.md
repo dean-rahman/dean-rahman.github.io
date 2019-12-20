@@ -4,7 +4,7 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/me.jpg" alt="Photo" hspace="20" width="30%" align="right"/> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<img src="assets/images/me.jpg" alt="Photo" hspace="20" width="30%" align="right"/> My name is Dean Rahman. I came to University of Helsinki from New York city (originally I'm from Detroit). I am interested in applying machine learning to language technology (for example machine translation) and trading US Futures. Previously I have done work in Data Visualization, Product Development, Supply Chain, Sourcing & Procurement, Corporate Strategy, Operational Finance and Organizational Change Management in the Technology, Automotive, Oil & Gas and Medical Device industries. My favorite activities outside work are learning languages with my wife Elina and swimming with my son Kaleb and daughter Aurora.
 
 ## Find me on
 

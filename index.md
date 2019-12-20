@@ -21,6 +21,8 @@ My email address is of the form first_name.last_name@helsinki.fi.
 [INTRODUCTION TO LANGUAGE TECHNOLOGY](https://courses.helsinki.fi/en/kik-405/130355898), Fall 2019
 
 ## Projects
+[Repository for setting up this webpage (cmdline-course Github project)](https://github.com/dean-rahman/dean-rahman.github.io)
+
 [Number of births per Finnish maternity clinic nurse, average for maakunta (static map)](https://autogis-2018.github.io/exercise-5-dean-rahman/Exercise_5_Problem_1_static_map_w_basemap.png)
 
 [Interactive map, created in Geopandas](https://autogis-2018.github.io/exercise-5-dean-rahman/Exercise_5_Problem_2_Interactive_Map.html)

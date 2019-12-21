@@ -4,11 +4,11 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/me.jpg" alt="Photo" hspace="20" width="30%" align="right"/> My name is Dean Rahman. I came to University of Helsinki from New York city (originally I'm from Detroit). I am interested in applying machine learning to language technology (for example machine translation) and trading US Futures. Previously I have done work in Data Visualization, Product Development, Supply Chain, Sourcing & Procurement, Corporate Strategy, Operational Finance and Organizational Change Management in the Technology, Automotive, Oil & Gas and Medical Device industries. 
+<img src="assets/images/me.jpg" alt="Photo" hspace="20" width="30%" align="right"/> My name is Dean Rahman. I came to University of Helsinki from New York city (originally I'm from Detroit). I am interested in applying machine learning to language technology (for example machine translation) and trading US Futures. Previously I have done work in Data Visualization, Product Development, Supply Chain, Sourcing & Procurement, Corporate Strategy, Operational Finance and Organizational Change Management in the Technology, Automotive, Oil & Gas and Medical Device industries.
 
-## Find me on
+## You can see more details about my work on my CV, LinkedIn profile or GitHub page
 
-[LinkedIn](https://www.linkedin.com/in/deanrahman), [GitHub](https://github.com/dean-rahman/)
+[CV](https://www.overleaf.com/read/sgqdmjtjbcqq), [LinkedIn](https://www.linkedin.com/in/deanrahman), [GitHub](https://github.com/dean-rahman/)
 
 ## Contact
 

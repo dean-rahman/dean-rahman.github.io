@@ -3,10 +3,12 @@ layout: default
 ---
 
 ## Introduction
+<img src="https://imgs.xkcd.com/comics/regular_expressions.png" alt="Photo" hspace="20" width="40%" align="right"/>
 
-<img src="http://img.youtube.com/vi/I_THXnIoxNg/0.jpg" alt="Photo" hspace="20" width="30%" align="right"/> My name is Dean Rahman. In fall of 2019 (period II), I studied the course titled "Command Line Tools for Linguists" at University of Helsinki. It was taught by fantastic lecturers [Hande Celikkanat](https://www.linkedin.com/in/hande-celikkanat-08664423/) and [Miikka Silfverberg](https://www.linkedin.com/in/miikka-silfverberg-78146019). Here is the [description of the course](https://courses.helsinki.fi/en/kik-lg219/129824412) by the course organizers. Below is a summary of my experience with the course which I have a written as a part of the final project for the course.
+My name is Dean Rahman. In fall of 2019 (period II), I studied the course titled "Command Line Tools for Linguists" at University of Helsinki. It was taught by fantastic lecturers [Hande Celikkanat](https://www.linkedin.com/in/hande-celikkanat-08664423/) and [Miikka Silfverberg](https://www.linkedin.com/in/miikka-silfverberg-78146019). Here is the [description of the course](https://courses.helsinki.fi/en/kik-lg219/129824412) by the course organizers. Below is a summary of my experience with the course which I have a written as a part of the final project for the course.
 
-Like all 5-credit single-period courses at U of Hel (which constitute the great majority of courses here), the Command Line course was 7 weeks of action-packed compressed learning fun, each week with a new module of concepts. Hence the week by week structure of the summary. (The redundant numbering with each of the week numbers is to highlight the use of a markdown list discussed in week 7 :) Enjoy!            
+Like all 5-credit single-period courses at U of Hel (which constitute the great majority of courses here), the Command Line course was 7 weeks of action-packed compressed learning fun, each week with a new module of concepts. Hence the week by week structure of the summary. (The redundant numbering with each of the week numbers is to highlight the use of a markdown list discussed after week 7 :)
+Enjoy!            
 
 ## Experience (List)
 
@@ -56,33 +58,59 @@ Like all 5-credit single-period courses at U of Hel (which constitute the great 
 6. Week 6
 
    Installing and Running Programs
+   
+
 
 7. Week 7
 
    Version control on github  
-   Markdown files (simple text files with links to websites, references to pictures and some cool text-based tricks such as tables and lists) and building static webpages thereof using Jeckyll. Hosting on github.io
+   
 
 + Final Project
 
-   Webpage introducing myself created from a markdown file.
-   A similarly created webpage introducing this course. (You are in fact looking at this very page).
-   A webpage created in Latex using Overleaf of my CV.
+   The final project consisted of building three webpages linking to one another.
+   The first introduces myself and is created from a markdown file.
+   The second is a similarly created webpage introducing this course. (You are in fact looking at this very page).
+   The third is a webpage created in Latex using Overleaf of my CV.
+   What are markdown files?
+   They are simple text files in a specific format (i.e. using very simple syntax) with links to websites, references to pictures and some cool text-based tricks such as tables and lists. and
+   Based on these simple files, Jeckyll can build static webpages.
+   We hosted these on github.io having built them using the principles of version control learned during Week 7!
 
 ## A Summary of the Summary (Table)
 
-`Week` | `Theme` | `Example`
+`Week` | `Theme` | `Example/Scenario`
 --- | --- | ---
-1 | Command Line Enviroment | 3
-2 | Navigating Unix Systems | 3
-3 | Corpus Processing | 3
-4 | Corpus Processing continued | 3
-5 | Scripting and Configuration Files | 3
-6 | Installing and Running Programs | 3
-7 | Version Control | 3
-Final | Markdown-based Static Websites | 3
+1 | Command Line Enviroment | \<ls\> shows all files and subdirectories in a directory
+2 | Navigating Unix Systems | \<mv -r subdirectory/ ~/someDirectory/\> moves subdictory from the current directory to someDirectory 
+3 | Corpus Processing | Replace all instances of a word with another word
+4 | Corpus Processing continued | Descending word frequencies
+5 | Scripting and Configuration Files | A script which computes descending word frequencies of any file provided as an argument
+6 | Installing and Running Programs | A package manager ensures all prerequisite installations are done before target instllation
+7 | Version Control | Team member 1 makes changes to files a and b on master branch; member 2 changes file c on experimental branch
+Final | Markdown-based Static Websites | Two markdown files A.md and B.md respectively drive A.html and B.html that link to one another
 
-## Concluding thoughts
-must have a table (done), picture (placeholder in) and a list (??) somewhere
+## Concluding Thoughts
 
-Operate in a linux environment. Process corpora..and hilarious comics about every new week's topic
+If you have read this far, I hope you have gotten the sense that I learned a lot in this course and had a lot of fun at the same time. 
+I do feel able to operate in a linux environment and I know how to do some hardcore corpus processing because, you know, it's ***language*** technology.
+And if I get stuck, I have a sense of where to go. This is a *tremendous* amount to get out of one 5-credit course.
+Moreover, it really sunk in because of the multi-modal teaching (online demo videos, on-point readings and in-person/over-slack guidance through practical exercises).
+It has been one of the best courses, from some of the best lecturers anywhere and I am grateful. 
+
+<img src="https://imgs.xkcd.com/comics/git_commit.png" alt="Photo" hspace="0" width="35%" align="right"/>
+..And each week had a hilarious comic about the week's topic. My favorite comic overall is at the top and my favorite with a detailed inside joke is here.
+
+
+
+
+
+
+
+
+
+
+
+
+
 

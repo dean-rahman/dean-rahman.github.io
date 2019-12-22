@@ -59,13 +59,28 @@ Enjoy!
 6. Week 6
 
    Installing and Running Programs
-   
+
+   Week 6 was another challenging week. We had previously covered installation package managers which help ensure that prerequisite installations are in place before attempting the target installation.
+   However, we learned in Week 6 that diligence is still required whenever installing a target program.
+   Even after searching apt-get for how to install target programs or applications, we might encounter errors because every computer is different (somehow especially so for Windows computers).
+
+   For python, it is possible to set up different environments with different versions of the same software when such is neccessitated by different target softwares having conflicting version-dependencies on prerequisit software.
+   It is also otherwise convenient to set up different environments for different type of work (or for different people to use the same computer perhaps?).
+
+   We also learned about programming Makefiles to run "make" syntax to generate a set of target files based on a group of source files.
+   We covered this concept in Week 5, but Makefiles allow us to refresh the target files when there is  an update to one or more of the source files.
+   For large processes this is handy in cutting down rebuild times (as in, nothing happens if no changes occurred and we can just used the stored target files from the prior build). 
 
 
 7. Week 7
 
    Version control on github  
-   
+
+   I had been familiar with the concept of version control from design for complex (multi-component) manufacturing, but it was good to see how the concept applies to software and multi-file management.
+   We learned how to use git to execute version control and github to store repositories on GitHub for version control in a collaborative context.
+   We learned how to add files to tracking (and remove them) and also how to commit changes and push these to the remote repositories for collaborative development.
+   We exercised rolling back versions, doing segregated feature development and merging different branches (segregated sequences) of development.
+   After the exercises, we moved directly on to actually applying the principles of version control to our final projects.
 
 + Final Project
 
@@ -87,20 +102,18 @@ Enjoy!
 3 | Corpus Processing | Replace all instances of a word with another word
 4 | Corpus Processing continued | Descending word frequencies
 5 | Scripting and Configuration Files | A script which computes descending word frequencies of any file provided as an argument
-6 | Installing and Running Programs | A package manager ensures all prerequisite installations are done before target instllation
+6 | Installing and Running Programs | A Makefile gets rid of headers/footers on a group of source files and makes frequency files from each, rerunning only when a source file changes
 7 | Version Control | Team member 1 makes changes to files a and b on master branch; member 2 changes file c on experimental branch
 Final | Markdown-based Static Websites | Two markdown files A.md and B.md respectively drive A.html and B.html that link to one another
 
 ## Concluding Thoughts
-
+<img src="https://imgs.xkcd.com/comics/git_commit.png" alt="Photo" hspace="20" width="35%" align="right"/>
 If you have read this far, I hope you have gotten the sense that I learned a lot in this course and had a lot of fun at the same time. 
 I do feel able to operate in a linux environment and I know how to do some hardcore corpus processing because, you know, it's ***language*** technology.
 And if I get stuck, I have a sense of where to go. This is a *tremendous* amount to get out of one 5-credit course.
 Moreover, it really sunk in because of the multi-modal teaching (online demo videos by the lecturers themselves, on-point readings and in-person/over-slack guidance through practical exercises).
-It has been one of the best courses, from some of the best lecturers anywhere and I am grateful. 
-
-<img src="https://imgs.xkcd.com/comics/git_commit.png" alt="Photo" hspace="0" width="35%" align="right"/>
-..And each week had a hilarious comic about the week's topic. My favorite comic overall is at the top and my favorite with a detailed inside joke is here.
+It has been one of the best courses, from some of the best lecturers anywhere and I am grateful..And each week had a hilarious comic about the week's topic.
+My favorite comic overall is at the top of the webpage and my favorite with a detailed inside joke is down here on the right.
 
 
 

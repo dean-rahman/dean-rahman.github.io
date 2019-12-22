@@ -24,7 +24,7 @@ Enjoy!
 
    Navigating a UNIX System
 
-   Stuff we were doing in Week 1 to files (copying, moving, deleting), we started doing to entire directories in Week 2! We also learned how to move files *between* computers. Holy guocamole! (The other computer, not the one you're physically typing on, being called a "remote server" through a remote connection command named <scp>).
+   Stuff we were doing in Week 1 to files (copying, moving, deleting), we started doing to entire directories in Week 2! We also learned how to move files *between* computers. Holy guacamole! (The other computer, not the one we're physically typing on, being called a "remote server" through a remote connection command named <scp>).
 
    Besides all the wowing, this is the week that the necessary mindset became extra clear for me. It was in the context of zipping and unzipping files, but it applies to everything command line. Should we sit around memorizing <tar -czvf name-of-archive.tar.gz /path/to/directory-or-file> to zip files? Or <tar -xf name-of-archive.tar.\
    gz> to unzip files? Of course not. Either we acquire these or any commands because we use these every day or we always have the internet for reference. While learning by Googling is becoming the modus operandi for most practitioners, especially in a powerful domain as powerful as command line, it is essential to become aware of what is possible and expand the problem solving mindset and look up exact commands (syntax) by reference.    
@@ -33,7 +33,7 @@ Enjoy!
 
    Basic Corpus Processing
 
-   The simple command <wc text_file.txt>. That's how we can find out the number of lines words and characters are in a file. What about getting rid of all capital letters in a file? We also learned how to do that and every other cool thing we thought was only ever possible in Microsoft Word. What about text processing in Microsoft Excel? Well, we can cut and paste columns in formatted text files right at the command line.
+   The simple command \<wc text_file.txt\>. That's how we can find out the number of lines words and characters are in a file. What about getting rid of all capital letters in a file? We also learned how to do that and every other cool thing we thought was only ever possible in Microsoft Word. What about text processing in Microsoft Excel? Well, we can cut and paste columns in formatted text files right at the command line.
 
    It's one thing to be able to use this functions in an out of the box software. It's another thing to be able to program them right from a (free) operating system. And forget about Word and Excel; they're nothing. We even learned the command line sequences that allowed us to do something we could only do using AntConc previously. Thats right, we learned all the steps to compute descending word frequencies in a file as well! (I knew you were wondering why we would want to change all upper cases :)
 
@@ -43,13 +43,14 @@ Enjoy!
 
    Regex, grep and sed. In Week 4, we started getting into the hardcore stuff. Regular expressions are a way of expressing different but related words or characer strings using a single expression. Using the grep command, we learned out to display or output all of the sentences or lines with words that satisfy a regular expression. Using the sed command, we learned how to replace all instances of strings satisfying a regular expression with a different expression.
 
-   As with Week 3, it became clear not only how softwares implement word processing features such as find-and-replace which we used as laypersons, but also how to execute aslew of processes which would now be available to us as aspiring language technologists. Each week's lessons were underscored with a quiz and this week's quiz was my favorite because every question felt as if I were solving a puzzle for fun.
+   As with Week 3, it became clear not only how softwares implement word processing features such as find-and-replace which we used as laypersons, but also how to execute a slew of processes which would now be available to us as aspiring language technologists.
+   Each week's lessons were underscored with a quiz and this week's quiz was my favorite because every question felt as if I were solving a puzzle for fun.
 
 5. Week 5
 
    Scripting and Configuration Files
 
-   Just when I thought I was on top of the world, knowing how to do anything to a poor text file with the use of regular expressions, grep and sed, my mind was blown again. (Yes, my mind was in pieces by this point). So what we could do anything to *a* file? What about mass production? What about doing that same sequence of things to many, many files?
+   Just when I thought I was on top of the world, knowing how to do anything to a poor text file with the use of regular expressions, grep and sed, my mind was blown again. (Yes, my mind was in pieces by this point.) So what we could do anything to *a* file? What about mass production? What about doing that same sequence of things to many, many files?
 
    In Week 5, it was time to learn how to write scripts--short programs in shell syntax which would process any file with our sequence to repeatably produce the same output. Because I had done data analysis in Python, many students looked to me to already know what was going on. But this was a very challeging week for me. Not only were applying sequences to text files somehow different, setting enviroment variables and doing so en masse via configuration files were both very new to me and I am still reviewing these concepts to fully grasp them.
 
@@ -70,10 +71,10 @@ Enjoy!
 
    The final project consisted of building three webpages linking to one another.
    The first introduces myself and is created from a markdown file.
-   The second is a similarly created webpage introducing this course. (You are in fact looking at this very page).
+   The second is a similarly created webpage introducing this course. (You are in fact looking at this very page.)
    The third is a webpage created in Latex using Overleaf of my CV.
    What are markdown files?
-   They are simple text files in a specific format (i.e. using very simple syntax) with links to websites, references to pictures and some cool text-based tricks such as tables and lists. and
+   They are simple text files in a specific format (i.e. using very simple syntax) with links to websites, references to pictures and some cool text-based tricks such as tables and lists.
    Based on these simple files, Jeckyll can build static webpages.
    We hosted these on github.io having built them using the principles of version control learned during Week 7!
 
@@ -95,7 +96,7 @@ Final | Markdown-based Static Websites | Two markdown files A.md and B.md respec
 If you have read this far, I hope you have gotten the sense that I learned a lot in this course and had a lot of fun at the same time. 
 I do feel able to operate in a linux environment and I know how to do some hardcore corpus processing because, you know, it's ***language*** technology.
 And if I get stuck, I have a sense of where to go. This is a *tremendous* amount to get out of one 5-credit course.
-Moreover, it really sunk in because of the multi-modal teaching (online demo videos, on-point readings and in-person/over-slack guidance through practical exercises).
+Moreover, it really sunk in because of the multi-modal teaching (online demo videos by the lecturers themselves, on-point readings and in-person/over-slack guidance through practical exercises).
 It has been one of the best courses, from some of the best lecturers anywhere and I am grateful. 
 
 <img src="https://imgs.xkcd.com/comics/git_commit.png" alt="Photo" hspace="0" width="35%" align="right"/>

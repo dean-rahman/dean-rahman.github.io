@@ -8,6 +8,8 @@ layout: default
 
 Like all 5-credit single-period courses at U of Hel (which constitute the great majority of courses here), the Command Line course was 7 weeks of action-packed compressed learning fun, each week with a new module of concepts. Hence the week by week structure of the summary. (The redundant numbering with each of the week numbers is to highlight the use of a markdown list discussed in week 7 :) Enjoy!            
 
+## Experience (List)
+
 1. Week 1
 
    Introduction to Command Line Environments
@@ -20,18 +22,26 @@ Like all 5-credit single-period courses at U of Hel (which constitute the great 
 
    Navigating a UNIX System
 
-   Stuff we were doing in Week 1 to files (copying, moving, deleting), we started doing to entire directories in Week 2! We also learned how to move files *between* computers. Holy guocamole! (The other computer, not the one you're physically typing on, being called a "remote server" through a remote connection command named <scp>). In the context of zipping and unzipping files. 
+   Stuff we were doing in Week 1 to files (copying, moving, deleting), we started doing to entire directories in Week 2! We also learned how to move files *between* computers. Holy guocamole! (The other computer, not the one you're physically typing on, being called a "remote server" through a remote connection command named <scp>).
 
-    
+   Besides all the wowing, this is the week that the necessary mindset became extra clear for me. It was in the context of zipping and unzipping files, but it applies to everything command line. Should we sit around memorizing <tar -czvf name-of-archive.tar.gz /path/to/directory-or-file> to zip files? Or <tar -xf name-of-archive.tar.\
+   gz> to unzip files? Of course not. Either we acquire these or any commands because we use these every day or we always have the internet for reference. While learning by Googling is becoming the modus operandi for most practitioners, especially in a powerful domain as powerful as command line, it is essential to become aware of what is possible and expand the problem solving mindset and look up exact commands (syntax) by reference.    
 
 3. Week 3
 
    Basic Corpus Processing
 
+   The simple command <wc text_file.txt>. That's how we can find out the number of lines words and characters are in a file. What about getting rid of all capital letters in a file? We also learned how to do that and every other cool thing we thought was only ever possible in Microsoft Word. What about text processing in Microsoft Excel? Well, we can cut and paste columns in formatted text files right at the command line.
+
+   It's one thing to be able to use this functions in an out of the box software. It's another thing to be able to program them right from a (free) operating system. And forget about Word and Excel; they're nothing. We even learned the command line sequences that allowed us to do something we could only do using AntConc previously. Thats right, we learned all the steps to compute descending word frequencies in a file as well! (I knew you were wondering why we would want to change all upper cases :)
+
 4. Week 4
 
    Advanced Corpus Processing
-   It was really good to get two weeks of continuity on corpus process, because, you know, LANGUAGE technology :)
+
+   Regex, grep and sed. In Week 4, we started getting into the hardcore stuff. Regular expressions are a way of expressing different but related words or characer strings using a single expression. Using the grep command, we learned out to display or output all of the sentences or lines with words that satisfy a regular expression. Using the sed command, we learned how to replace all instances of strings satisfying a regular expression with a different expression.
+
+   As with Week 3, it became clear not only how softwares implement word processing features such as find-and-replace which we used as laypersons, but also how to execute aslew of processes which would now be available to us as aspiring language technologists. Each week's lessons were underscored with a quiz and this week's quiz was my favorite because every question felt as if I were solving a puzzle for fun.
 
 5. Week 5
 
@@ -48,16 +58,25 @@ Like all 5-credit single-period courses at U of Hel (which constitute the great 
 
 + Final Project
 
-Webpage introducing myself created from a markdown file.
-A similarly created webpage introducing this course. (You are in fact looking at this very page).
-A webpage created in Latex using Overleaf of my CV.
+   Webpage introducing myself created from a markdown file.
+   A similarly created webpage introducing this course. (You are in fact looking at this very page).
+   A webpage created in Latex using Overleaf of my CV.
 
-+ A Summary of the Summary
+## A Summary of the Summary (Table)
 
-Table
-Week#	| Theme	| Example
+`Week` | `Theme` | `Example`
+--- | --- | ---
+1 | Command Line Enviroment | 3
+2 | Navigating Unix Systems | 3
+3 | Corpus Processing | 3
+4 | Corpus Processing continued | 3
+5 | Scripting and Configuration Files | 3
+6 | Installing and Running Programs | 3
+7 | Version Control | 3
+Final | Markdown-based Static Websites | 3
 
-+ Concluding thoughts, must have a table (done), picture (placeholder in) and a list (??) somewhere
+## Concluding thoughts
+must have a table (done), picture (placeholder in) and a list (??) somewhere
 
 Operate in a linux environment. Process corpora..and hilarious comics about every new week's topic
 

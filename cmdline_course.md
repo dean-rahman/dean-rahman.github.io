@@ -18,30 +18,82 @@ Enjoy!
 
    We familiarized ourselves with Command Line Environments. Even though the majority of us had already gotten at least a peak at command line environments before (e.g. in the prerequisite course Introduction to Linguistics), this is the spot for me to express what each of us felt the first time we really comprehended what command lines were about: Holy Cow! We were culture shocked and delighted at the simultaneous self-service orientation and simplicity of  command lines after growing up with graphical user interfaces (GUIs) such as Windows, Macs and smartphones. The most cliché but effective explanation to a newbie is something along the lines of..imagine, instead of clicking an highlighting a file icon inside a folder and dragging it into another folder, you type in a highly specific sentence to the computer so it does the same thing. (This is of course because the folders thing is a just an analogy for our human brains for the construct that computers use in an array of memory..blah blah blah..). As you will see if you read the rest of the course summary, moving a file is the tip of the visible tip of the hidden iceberg, but for this week, it's enough to say the other simple things we learned which were mind blowing.
 
-   Typing in the simple two character command <ls> (abbreviation for list), lists out all the visible files and folders in a folder (called "directory" in non-iconic speak). We can move out of a directory (folder) to go one folder up by typing <cd ..>. Using some pre-specified few characters or the folder path allows us to see the list of files in any directory or change to any directory (e.g. cd ~/KIK-LG219/final/). <wget https//somewebsite.com/somefile.jpg> lets us download a file from a website without opening up a GUI browser. Holy cow! One of the students remembers a reference to this in either the movie The Social Network or the show Silicone Valley, both about programmers.  
+   Typing in the simple two character command
+
+   `<ls>`
+
+   (abbreviation for list), lists out all the visible files and folders in a folder (called "directory" in non-iconic speak).
+
+   We can move out of a directory (folder) to go one folder up by typing
+
+   `<cd ..>`.
+
+   Using some pre-specified few characters or the folder path allows us to see the list of files in any directory or change to any directory, e.g.
+
+   `cd ~/KIK-LG219/final/`.
+
+   The command
+
+   `<wget https//somewebsite.com/somefile.jpg>`
+
+   lets us download a file from a website without opening up a GUI browser.
+   Holy cow!
+   One of the students remembers a reference to this in either the movie The Social Network or the show Silicone Valley, both about programmers.  
 
 2. Week 2
 
    Navigating a UNIX System
 
-   Stuff we were doing in Week 1 to files (copying, moving, deleting), we started doing to entire directories in Week 2! We also learned how to move files *between* computers. Holy guacamole! (The other computer, not the one we're physically typing on, being called a "remote server" through a remote connection command named <scp>).
+   Stuff we were doing in Week 1 to files (copying, moving, deleting), we started doing to entire directories in Week 2! We also learned how to move files *between* computers. Holy guacamole! (The other computer, not the one we're physically typing on, being called a "remote server" through a remote connection command named
 
-   Besides all the wowing, this is the week that the necessary mindset became extra clear for me. It was in the context of zipping and unzipping files, but it applies to everything command line. Should we sit around memorizing <tar -czvf name-of-archive.tar.gz /path/to/directory-or-file> to zip files? Or <tar -xf name-of-archive.tar.\
-   gz> to unzip files? Of course not. Either we acquire these or any commands because we use these every day or we always have the internet for reference. While learning by Googling is becoming the modus operandi for most practitioners, especially in a powerful domain as powerful as command line, it is essential to become aware of what is possible and expand the problem solving mindset and look up exact commands (syntax) by reference.    
+   `<scp>`).
+
+   Besides all the wowing, this is the week that the necessary mindset became extra clear for me. It was in the context of zipping and unzipping files, but it applies to everything command line. Should we sit around memorizing
+
+   <tar -czvf name-of-archive.tar.gz /path/to/directory-or-file>
+
+   to zip files? Or
+
+   `<tar -xf name-of-archive.tar.gz>`
+
+   to unzip files? Of course not.
+   Either we acquire these or any commands because we use these every day or we always have the internet for reference.
+   While learning by Googling is becoming the modus operandi for most practitioners, especially in a powerful domain as powerful as command line, it is essential to become aware of what is possible and expand the problem solving mindset and look up exact commands (syntax) by reference.    
 
 3. Week 3
 
    Basic Corpus Processing
 
-   The simple command \<wc text_file.txt\>. That's how we can find out the number of lines words and characters are in a file. What about getting rid of all capital letters in a file? We also learned how to do that and every other cool thing we thought was only ever possible in Microsoft Word. What about text processing in Microsoft Excel? Well, we can cut and paste columns in formatted text files right at the command line.
+   The simple command
+   `\<wc text_file.txt\>`.
 
-   It's one thing to be able to use this functions in an out of the box software. It's another thing to be able to program them right from a (free) operating system. And forget about Word and Excel; they're nothing. We even learned the command line sequences that allowed us to do something we could only do using AntConc previously. Thats right, we learned all the steps to compute descending word frequencies in a file as well! (I knew you were wondering why we would want to change all upper cases :)
+   That's how we can find out the number of lines words and characters are in a file.
+   What about getting rid of all capital letters in a file? We also learned how to do that and every other cool thing we thought was only ever possible in Microsoft Word.
+   What about text processing in Microsoft Excel?
+   Well, we can cut and paste columns in formatted text files right at the command line.
+
+   It's one thing to be able to use this functions in an out-of-the-box software.
+   It's another thing to be able to program them right from a (free) operating system.
+   And forget about Word and Excel; they're nothing.
+   We even learned the command line sequences that allowed us to do something we could only do using AntConc previously.
+   Thats right, we learned all the steps to compute descending word frequencies in a file as well!
+   (I knew you were wondering why we would want to change all upper cases :)
 
 4. Week 4
 
    Advanced Corpus Processing
 
-   Regex, grep and sed. In Week 4, we started getting into the hardcore stuff. Regular expressions are a way of expressing different but related words or characer strings using a single expression. Using the grep command, we learned out to display or output all of the sentences or lines with words that satisfy a regular expression. Using the sed command, we learned how to replace all instances of strings satisfying a regular expression with a different expression.
+   Regex, grep and sed. In Week 4, we started getting into the hardcore stuff. Regular expressions are a way of expressing different but related words or characer strings using a single expression.
+   Using the command
+
+   `grep`,
+
+   we learned out to display or output all of the sentences or lines with words that satisfy a regular expression.
+   Using the command
+
+   `sed`,
+
+   we learned how to replace all instances of strings satisfying a regular expression with a different expression.
 
    As with Week 3, it became clear not only how softwares implement word processing features such as find-and-replace which we used as laypersons, but also how to execute a slew of processes which would now be available to us as aspiring language technologists.
    Each week's lessons were underscored with a quiz and this week's quiz was my favorite because every question felt as if I were solving a puzzle for fun.
@@ -50,11 +102,23 @@ Enjoy!
 
    Scripting and Configuration Files
 
-   Just when I thought I was on top of the world, knowing how to do anything to a poor text file with the use of regular expressions, grep and sed, my mind was blown again. (Yes, my mind was in pieces by this point.) So what we could do anything to *a* file? What about mass production? What about doing that same sequence of things to many, many files?
+   Just when I thought I was on top of the world, knowing how to do anything to a poor text file with the use of regular expressions, grep and sed, my mind was blown again.
+   (Yes, my mind was in pieces by this point.)
+   So what we could do anything to *a* file?
+   What about mass production?
+   What about doing that same sequence of things to many, many files?
 
-   In Week 5, it was time to learn how to write scripts--short programs in shell syntax which would process any file with our sequence to repeatably produce the same output. Because I had done data analysis in Python, many students looked to me to already know what was going on. But this was a very challeging week for me. Not only were applying sequences to text files somehow different, setting enviroment variables and doing so en masse via configuration files were both very new to me and I am still reviewing these concepts to fully grasp them.
+   In Week 5, it was time to learn how to write scripts--short programs in shell syntax which would process any file with our sequence to repeatably produce the same output.
+   Because I had done data analysis in Python, many students looked to me to already know what was going on.
+   But this was a very challeging week for me.
+   Not only was applying sequences to text files somehow different, setting enviroment variables and doing so en masse via configuration files were both very new to me and I am still reviewing these concepts to fully grasp them.
 
-   Because of the challenging nature of this week, another student and I camped out one night in the hallway outside of Hande's office and got dirty looks from most of the Language Tech faculty and staff who were passing through. Our hope of course was to catch Hande and ambush her with questions which we did several times. Finally, partly to help us with look-over-our-coaching, partly for her own fun (I hope), partly to make us sweat and, you know, get rid of us, she had us solve a few problems real-time with her watching. That was a lot of fun and brought back the feeling from my Deloitte days.
+   E.g. `export PATH=$PATH:$HOME/KIK-LG219/week5` is an easy example: it sets my week5 folder as PATH`
+
+   Because of the challenging nature of this week, another student and I camped out one night in the hallway outside of Hande's office and got dirty looks from most of the Language Tech faculty and staff who were passing through.
+   Our hope of course was to catch Hande and ambush her with questions which we did several times.
+   Finally, partly to help us with look-over-our-coaching, partly for her own fun (I hope), partly to make us sweat and, you know, get rid of us, she had us solve a few problems real-time with her watching.
+   That was a lot of fun and brought back the feeling from my Deloitte days.
 
 6. Week 6
 
@@ -62,12 +126,20 @@ Enjoy!
 
    Week 6 was another challenging week. We had previously covered installation package managers which help ensure that prerequisite installations are in place before attempting the target installation.
    However, we learned in Week 6 that diligence is still required whenever installing a target program.
-   Even after searching apt-get for how to install target programs or applications, we might encounter errors because every computer is different (somehow especially so for Windows computers).
+   Even after searching
+
+   `apt-get`
+
+   for how to install target programs or applications, we might encounter errors because every computer is different (somehow especially so for Windows computers).
 
    For python, it is possible to set up different environments with different versions of the same software when such is neccessitated by different target softwares having conflicting version-dependencies on prerequisit software.
    It is also otherwise convenient to set up different environments for different type of work (or for different people to use the same computer perhaps?).
 
-   We also learned about programming Makefiles to run "make" syntax to generate a set of target files based on a group of source files.
+   We also learned about programming Makefiles to run
+
+   `make`
+
+   syntax to generate a set of target files based on a group of source files.
    We covered this concept in Week 5, but Makefiles allow us to refresh the target files when there is  an update to one or more of the source files.
    For large processes this is handy in cutting down rebuild times (as in, nothing happens if no changes occurred and we can just used the stored target files from the prior build). 
 
@@ -81,6 +153,12 @@ Enjoy!
    We learned how to add files to tracking (and remove them) and also how to commit changes and push these to the remote repositories for collaborative development.
    We exercised rolling back versions, doing segregated feature development and merging different branches (segregated sequences) of development.
    After the exercises, we moved directly on to actually applying the principles of version control to our final projects.
+
+   `git add -A` adds all files changed so far to git tracking.
+
+   `git commit -m""` commits all added files.
+
+   `git push` pushes all commited files.
 
 + Final Project
 

@@ -5,10 +5,10 @@ layout: default
 ## Introduction
 
 <img src="http://img.youtube.com/vi/I_THXnIoxNg/0.jpg" alt="Photo" hspace="20" width="30%" align="right"/>
-My name is Dean Rahman. I came to University of Helsinki from New York city (originally I'm from Detroit).
-I am interested in applying machine learning to language technology (for example machine translation) and to trading US Futures.
-Previously I have done work in data visualization, product development, supply chain, sourcing & procurement, corporate strategy, operational finance and organizational change management in the technology, automotive, oil & gas and medical device industries.
-(Image: Patrick Johnson (left), then CFO of WPP being interviewed by Dean Rahman (right).) 
+My name is Dean Rahman. I came to University of Helsinki from New York City (originally I'm from Detroit).
+I am interested in applying machine learning to language technology (for example machine translation) and to trading futures.
+Previously, I have done work in data visualization, product development, supply chain, sourcing & procurement, corporate strategy, operational finance and organizational change management in the technology, automotive, oil & gas and medical device industries.
+(Image: Patrick Johnson (left), then CFO of WPP, being interviewed by Dean Rahman (right).) 
 
 ## You can see more details about my work on my CV, LinkedIn profile or GitHub page
 [CV](https://www.overleaf.com/read/sgqdmjtjbcqq), [LinkedIn](https://www.linkedin.com/in/deanrahman), [GitHub](https://github.com/dean-rahman/)
